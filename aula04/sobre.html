@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre - Tags Semânticas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.svg">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+
+            <script> $(function(){
+                $('#header').load("header.html");
+                $('#footer').load("footer.html");
+                });
+            </script>
+</head>
+
+<body>
+    <header id="header"></header>
+
+    <main>
+        <br><br><br>
+        <section class="section-article-figure-figcaption">
+            <article class="sobre">            
+                <main>
+                    <figure class="figure">
+                        <img src="img/estrutura-semantica.png" alt="Imagem da Estrutura Semântica">
+                        <figcaption> <i>Acima, uma demonstração de uma estrutura semântica.</i> </figcaption>
+                    </figure>
+
+                    <div class="txt-sobre">
+                        <p>
+                            Um elemento semântico descreve claramente seu significado tanto para o navegador
+                            quanto para o desenvolvedor.
+                            <br><br>
+                            Exemplos de elementos não semânticos:<br>
+                            <strong>div</strong> e <strong>span</strong> - Não informa nada sobre seu conteúdo.
+                            <br>
+                            Exemplos de elementos semânticos:<br>
+                            <strong>form</strong>, <strong>table</strong> e <strong>article</strong> - 
+                            Define claramente seu conteúdo.
+                        </p>
+                    </div> 
+                </main>
+
+                <footer class="titulo-codigo">
+                    <h2>Abaixo podemos observar o código HTML e CSS da sessão acima.</h2>
+                </footer> 
+            </article>
+        </section>
+
+        <section class="section-codigo">
+            <article class="codigo">
+                <div class="imagens">
+                    <figure class="figure-codigo">
+                        <img id="codigo" src="img/codigo-da-sessao.png" alt="Código da Página"/>
+                    <br><br>
+                        <figcaption>código html</figcaption>
+                    <br><br>
+                    </figure>
+
+                    <figure class="figure-css">
+                        <img id="css" src="img/css-da-sessao.png" alt="Código da Página"/>
+                    <br><br>
+                        <figcaption>css</figcaption>
+                    <br><br>
+                    </figure>
+                </div>
+                
+            </article>
+        </section>
+    </main>
+
+</body>
+
+<div id="footer"></div>
+
+</html>

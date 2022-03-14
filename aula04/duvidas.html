@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duvidas - Tags Semânticas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.svg">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+
+            <script> $(function(){
+                $('#header').load("header.html");
+                $('#footer').load("footer.html");
+                });
+            </script>
+</head>
+
+<body>
+    <header id="header"></header>
+
+    <main>
+
+        <section class="container-details-aside">
+            <div class="questions">
+                <h1>Algumas dúvidas frequentes sobre as tags semânticas</h1>
+                    <details>
+                        <summary>O que é uma tag semântica?</summary>
+                            <p>
+                                O HTML semântico é a forma de deixar o site com 
+                                suas informações bem explicadas e compreensíveis 
+                                para o computador, ajudando até mesmo em sua busca 
+                                no Google e facilitando o entendimento de leitores 
+                                de acessibilidade. Com o HTML semântico, ficou muito 
+                                mais fácil de interpretar páginas.
+                            </p>
+                    </details>
+
+                    <details>
+                        <summary>Qual a sua importância?</summary>
+                            <p>
+                                Usando html semântico para marcar suas páginas, você 
+                                pode criar páginas que são mais acessíveis, tanto para 
+                                as pessoas com deficiência, bem como aos motores de busca. 
+                                Marcação semântica ajuda os motores de busca determinar qual 
+                                é a relevância do conteúdo de uma página.
+                            </p>
+                    </details>
+
+                    <details>
+                        <summary>Dúvida sobre a tag: section</summary>
+                            <p>
+                                Section, este elemento HTML representa uma seção genérica contida 
+                                em um documento HTML, geralmente com um título, quando não existir 
+                                um elemento semântico mais específico para representá-lo.
+                            </p>
+                    </details>
+
+                    <details>
+                        <summary>Dúvida sobre a tag: article</summary>
+                            <p>
+                                Article, este elemento HTML representa uma composição independente em um 
+                                documento, página, aplicação, ou site, ou que é destinado a ser distribuido 
+                                de forma independente ou reutilizável, por exemplo, em sindicação.
+                            </p>
+                    </details>
+
+                    <details>
+                        <summary>Qual a diferença das tags section e article?</summary>
+                            <p>
+                                Article define a área onde há um artigo, texto, redação, conteúdo 
+                                e etc.<br><br>
+                                Section define um bloco ou um grupo de um assunto específico.<br><br>
+                                É importante entender que a section agrupa diversos elementos que tenham 
+                                relação entre si.
+                            </p>
+                    </details>
+
+                    <details>
+                        <summary>Qual a diferença das tags div e section?</summary>
+                            <p>
+                                A única diferença entre os elementos div e section é a semântica:<br><br>
+                                O significado do conteúdo que você está dividindo, por exemplo: qualquer conteúdo 
+                                contido em um elemento <strong>div</strong> não tem nenhum significado inerente.<br><br>
+                                <strong>div</strong> é melhor usado para coisas como: Estilos CSS e ganchos para estilos CSS.
+                                <br><br>
+                                Uma a tag <strong>section</strong> demarca o intervalo de uma "sessão", ou seja,
+                                um intervalo de conteúdos em com inter-relações.
+                            </p>
+                    </details>
+
+                    <details>
+                        <summary>Como utilizar a tag nav?</summary>
+                            <p>
+                                A tag nav pode estar em todos os elementos do HTML:<br>
+                                Você pode colocá-la no header para definir menus, no footer para definir grupos de links, 
+                                sidebars, articles e etc.
+                            </p>
+                    </details>
+
+            </div>
+
+            <aside class="right-content">
+                <header>
+                    <p>Vídeo explicativo sobre o assunto:</p>
+                </header>
+
+                <main>
+                    <div class="container-videos">
+                        <iframe width="350" height="300"
+                            src="https://www.youtube.com/embed/pKOp7pQQzNM" 
+                            title="YouTube video player" frameborder="10" allow="accelerometer; 
+                            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </main>
+            </aside>
+        </section>
+    </main>
+</body>
+
+<div id="footer"></div>
+
+</html>

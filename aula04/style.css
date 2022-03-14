@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital,wght@0,100;0,400;1,300&family=Smooch+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&family=Smooch+Sans:wght@300&display=swap');
+
+/*------------------------RESET CSS------------------------*/
+*{
+    margin : 0; padding: 0;
+    box-sizing: border-box;
+}
+/*------------------------BODY PAGES------------------------*/
+body{
+    background-color: #ffffff;
+    height: auto;
+}
+/*------------------------HEADER PAGES------------------------*/
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: cadetblue;
+    justify-content: space-around;
+    padding: 12px;
+    width: 100%;
+    height: 100px;
+}
+
+.navbar .logo-navbar img{
+    width: 100px;
+}
+
+.logo-navbar{
+    padding: 12px;
+}
+
+.btn-navbar{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 24px;
+}
+
+.navbar .btn-navbar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 32px;
+    color:azure;
+    margin-right: 30px;
+}
+
+.navbar .btn-navbar a:hover{
+    color:rgb(231, 155, 93);
+    text-decoration: overline white;
+}
+
+.formulario-navbar{
+    padding: 12px;
+}
+/*------------------------INDEX PAGE------------------------*/
+
+.container-txt-img{
+    width: 100%;
+}
+
+.txt-section{
+    width: 100%;
+    text-align: center;
+    background-color: gray;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 48px auto 48px auto;
+}
+
+.txt-section h1{
+    color: aliceblue;
+    font-size: 38px;
+    -webkit-text-stroke: 1px #000000;
+    background-color: cadetblue;
+    border-radius: 5%;
+    border: 1px solid black;
+
+}
+
+#txt-index{
+    color: aliceblue;
+    font-size: 24px;
+    
+}
+
+.img-section{
+    width: 100%;
+    text-align: center;
+}
+
+#vs{
+    width: 50%;
+}
+
+#reference{
+    text-decoration: overline;
+    color: #ffffff;
+}
+
+.container-txt-btns{
+    width: 100%;
+    margin: 48px auto 48px auto;
+}
+
+.txt-container{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: rebeccapurple;
+}
+
+#txt-index{
+    width: 100%;
+    height: auto;
+    padding: 24px 0 24px 0;
+    background-color: #2c2c2c;
+}
+
+.container-txt-btns footer{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 48px;
+    padding: 24px 0 24px 0;
+    background-color: #2c2c2c;
+
+}
+
+.container-txt-btns footer span{
+    padding: 0 0 24px 0;
+}
+
+footer{
+    margin-top: 48px;
+    background-color: #2c2c2c;
+}
+
+footer p{
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 24px 0 0 0;
+    background-color: #444444;
+}
+
+.footer a[id="g-drive"]{
+    margin: 0 10% 0 auto;
+}
+
+.footer a[id="mega"]{
+    margin: 0;
+}
+
+.footer a[id="mediafire"]{
+    margin: 0 auto 0 10%;
+}
+
+.footer a button{
+    cursor: pointer;
+}
+
+.footer button[name="g-drive"]{
+    color: rgb(81, 107, 4);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.footer button[name="g-drive"]:hover{
+    color: whitesmoke;
+    background-color: rgb(81, 107, 4);
+    transition: 1s;
+}
+
+.footer button[name="mega"]{
+    color: rgb(58, 1, 15);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.footer button[name="mega"]:hover{
+    color: whitesmoke;
+    background-color: rgb(58, 1, 15);
+    transition: 1s;
+}
+
+.footer button[name="mediafire"]{
+    color: rgb(0, 9, 128);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.footer button[name="mediafire"]:hover{
+    color: whitesmoke;
+    background-color: rgb(0, 9, 128);
+    transition: 1s;
+}
+
+/*------------------------SOBRE PAGE------------------------*/
+
+.section-article-figure-figcaption{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+}
+
+.sobre main{
+    display: flex;
+    border-top: 12px solid cadetblue;
+    padding-top: 24px;
+}
+
+.figure img{
+    width: 100%;
+}
+
+.figure figcaption{
+    color: rgb(20, 20, 20);
+    font-weight: bolder;
+}
+
+.txt-sobre p{
+    font-size: 24px;
+    color: #2c2c2c;
+}
+
+.txt-sobre strong{
+    color: rgba(9, 9, 61, 0.692);
+}
+
+.section-codigo{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 48px;
+}
+
+.codigo{
+    width: 100%;
+}
+
+.titulo-codigo{
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 24px;
+    -webkit-text-stroke: 1px #000000;
+    background-color: cadetblue;
+    margin: 48px 0 0 0;
+}
+
+.imagens{
+    display: block;
+    text-align: center;
+}
+
+#codigo{
+    width: 70%;
+    height: auto;
+    margin-top: 48px;
+}
+
+#css{
+    width: 30%;
+    height: auto;
+    margin-top: 124px;
+}
+
+.imagens figure{
+    border-top: 1px solid rgb(2, 2, 2);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-top: 48px;
+}
+
+.imagens figcaption{
+    width: auto;
+    text-transform: uppercase;
+    color: aliceblue;
+    background-color: #444444;
+}
+
+/*------------------------DÚVIDAS PAGE------------------------*/
+
+.container-details-aside{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.questions{
+    width: 60%;
+    height: auto;
+    margin: 24px 0 24px 10%;
+    border-left: 1px solid cadetblue;
+}
+
+.questions h1{
+    text-align: center;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 28px;
+}
+
+.questions details{
+    padding: 24px;
+    margin: 12px 0 12px 12px;
+}
+
+.questions p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.questions summary{
+    width: auto;
+    color: cadetblue;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.questions summary::marker{
+    color: #2c2c2c;
+}
+
+.right-content{
+    width: 30%;
+    height: auto;
+    margin: 24px 0 24px auto;
+    border-left: 1px solid cadetblue;
+}
+
+.right-content header{
+    width: 100%;
+    color: #000000;
+    font-size: 32px;
+    font-family: 'Smooch Sans', sans-serif;
+    text-align: center;
+}
+
+.container-videos{
+    width: 100%;
+    height: auto;
+}
+
+.right-content main{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 24px;
+}
+
+/*------------------------LOGIN PAGE------------------------*/
+
+.container{
+    display: block;
+}
+
+.form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 24px;
+}
+
+.form-left input, .form-right input, .form-left select{
+    width: 50%;
+    margin-bottom: 12px;
+
+}
+
+.left{
+    width: 50%;
+    text-align: center;
+    border-right: 1px solid cadetblue;
+}
+
+.left span, .right span{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 24px;
+    background-color: cadetblue;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.right{
+    width: 50%;
+    text-align: center;
+}
+
+.container button{
+    margin: 0 auto 0 auto;
+}
+
+
+/*------------------------**********------------------------*/
+
+
+
+/*----@---@---@----------|---MEDIA'S---|----------@---@---@----*/
+/*----@---@---@----------v------------v----------@---@---@----*/
+
+
+
+/*------------------------MEDIA NAVBAR------------------------*/
+@media(max-width:750px){
+
+.navbar{
+    display: block;
+    background-color: cadetblue;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.btn-navbar{
+    display: block;
+}
+
+.navbar .btn-navbar a{
+    display: block;
+    background-color: rgb(136, 136, 136);
+    border: 1px solid #001a1a;
+}
+
+.navbar .btn-navbar a:hover{
+    color:rgb(231, 155, 93);
+    background-color: rgb(194, 194, 194);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#vs{
+    width: 100%;
+}
+
+}
+/*------------------------******************------------------------*/
+
+/*------------------------MEDIA SOBRE------------------------*/
+@media(max-width:750px){
+
+.sobre main{
+    display: block;
+}
+
+.figure figcaption {
+    margin-bottom: 24px;
+    }
+
+#codigo{
+    width: 100%;
+}
+
+#css{
+    width: 50%;
+}
+
+}
+/*------------------------***********------------------------*/
+
+/*------------------------MEDIA DÚVIDAS------------------------*/
+@media (max-width:1220px){
+
+.container-details-aside{
+    display: block;
+}
+    
+.right-content{
+    margin: 24px 0 24px 10%;
+}
+
+.right-content main{
+    margin-top: 24px 0 24px 0;
+    padding-left: 5%;
+}
+
+.right-content header{
+    width: 100%;
+}
+
+.right-content span{
+
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 28px;
+    text-align: justify;
+}
+}
+/*------------------------******************------------------------*/

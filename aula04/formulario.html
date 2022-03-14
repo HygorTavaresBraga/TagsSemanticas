@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Tags Semânticas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.svg">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+
+            <script> $(function(){
+                $('#header').load("header.html");
+                $('#footer').load("footer.html");
+                });
+            </script>
+</head>
+<body>
+    <header id="header"></header>
+
+    <main>
+        <section class="container">
+            <div class="form">
+                <div class="left">
+                    <span> <strong>Cadastro</strong> </span>
+                    <br><br>
+                    <form class="form-left">
+                        <h4>Nome</h4>
+                            <input type="text" placeholder="Digite seu nome">
+                        <br>
+                        <h4>Sobrenome</h4>
+                            <input type="text" placeholder="Digite seu sobrenome">
+                        <h4>E-mail</h4>
+                            <input type="email" placeholder="Digite seu email">
+                        <h4>Telefone</h4>
+                            <input type="text" placeholder="Digite seu telefone">
+                        <h4>CPF</h4>
+                            <input type="text" placeholder="Digite seu CPF">
+                        <h4>País</h4>
+                            <select name="País" id="form-pais">
+                                <option value="Selecione">Selecione</option>
+                                <option value="Argentina">Argentina</option>
+                                <option value="Brasil">Brasil</option>
+                                <option value="Croácia">Croácia</option>
+                                <option value="Dinamarca">Dinamarca</option>
+                                <option value="Espanha">Espanha</option>
+                                <option value="Finlândia">Finlândia</option>
+                                <option value="Grécia">Grécia</option>
+                                <option value="Holanda">Holanda</option>
+                                <option value="Irlanda">Irlanda</option>
+                                <option value="Japão">Japão</option>
+                                <option value="Letônia">Letônia</option>
+                                <option value="Malásia">Malásia</option>
+                                <option value="Nigéria">Nigéria</option>
+                                <option value="Omã">Omã</option>
+                                <option value="Portugal">Portugal</option>
+                                <option value="Quênia">Quênia</option>
+                                <option value="Russia">Russia</option>
+                                <option value="Samoa">Samoa</option>
+                                <option value="Tailândia">Tailândia</option>
+                                <option value="Ucrânia">Ucrânia</option>
+                                <option value="Venezuela">Venezuela</option>
+                                <option value="Zâmbia">Zâmbia</option>
+                            </select>
+                        <h4>Usuário</h4>
+                            <input type="text" placeholder="Digite seu usuário">
+                        <h4>Senha</h4>
+                            <input type="password" placeholder="Digite sua senha">
+                        <h4>Confirmação da Senha</h4>
+                            <input type="password" placeholder="Redigite sua senha">
+                            <br><br>
+                        <button type="submit">Cadastrar</button>
+                            <br><br>
+                    </form>
+                </div>
+                
+                <div class="right">
+                    <span> <strong>Login</strong> </span>
+                    <br><br>
+                    <form class="form-right">
+                        <h4>Usuário</h4>
+                            <input type="text" placeholder="Digite seu usuário">
+                        <h4>Senha</h4>
+                            <input type="password" placeholder="Digite sua senha">
+                            <br><br>
+                        <button type="submit">Logar</button>
+                            <br><br>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+<div id="footer"></div>
+
+</html>
